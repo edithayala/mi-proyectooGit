@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/FubuNimi.png">
+    <link rel="stylesheet" type="text/css" href="css/todo.css"/>
+    <title> Registro </title>
+</head>
+<body>
+    <header class="marca">
+        <figure class="logo">
+            <img src="img/FubuNimi.png" alt="logo">
+        </figure>    
+        <nav id="menu_principal">
+            <a href="index.html" class="op_menu"> Inicio </a>
+        </nav>
+    </header>
+    <section class="registro1">
+        <article id="vidrio">
+            <h1> Ingrese sus datos </h1>
+            <form action="#" method="post">
+                <label> Nombre: </label> <br>
+                <input type="text" placeholder="captura tu nombre"/>
+                <br><br><br> <label> Correo electrónico: </label> <br>
+                <input type="email" placeholder="Ingresa tu correo" required/>
+                <br><label> Password: </label> <br>
+                <input type="password" placeholder="Ingresa la contraseña" minlength="5" maxlength="10" required/>
+                <br> <br> <label> <br>Edad: </label> <br>
+                <input type="number" min="7" max="100">
+                <br> <br>  <label> <br> Género: </label> <br>
+                <input type="radio" name="genero" value="Femenino"> <label for=""> Femenino </label>
+                <input type="radio" name="genero" value="Masculino"> <label for=""> Maculino </label>
+                <input type="radio" name="genero" value="Otro"> <label for=""> Otro </label>
+                <br> <br> <label> <br>Ciudad de origen:</label> <br>
+                <select name="Ciudad" id="">
+                    <option value="leon"> León </option>
+                    <option value="guanajuato"> Guanajuato </option>
+                    <option value="estado de mexico"> Estado de México </option>
+                </select> <br> 
+                <br> <br> <input type="submit" value="guardar" class="button">
+                <input type="reset" value="eliminar" class="button">
+            </form>
+        </article>
+    </section>
+</body>
+</html>
